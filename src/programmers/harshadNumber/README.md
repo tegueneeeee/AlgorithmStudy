@@ -6,6 +6,6 @@ Level1
 
 困ったこと:数の桁を足すこととCharのInt化することのKotlin文が分からなかった
 
-x.toString().chars().map(){
+※　x.toString().chars().map(){
  Character.getNumericValue(it)
 }.sum()
