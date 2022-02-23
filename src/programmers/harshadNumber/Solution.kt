@@ -5,7 +5,9 @@ import javax.xml.stream.events.Characters
 class Solution {
     fun solution(x: Int): Boolean {
         var answer = true
-        answer = 0 == x % (x.toString().chars().map() {Character.getNumericValue(it)}.sum())
+        answer = 0 == x % (x.toString().chars().map() {
+            Character.getNumericValue(it)
+        }.sum())
         return answer
     }
 }
